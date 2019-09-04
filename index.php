@@ -36,6 +36,9 @@ body {
 .img {
   margin: 30px;
 }
+.card {
+  margin-bottom: 20px;
+}
 .jumbotron {
   margin-top:
 }
@@ -326,6 +329,11 @@ a:hover, a:active {
         <h4><i class="fal fa-parking"></i> Parkering:</h4>
         <p>Du må ikke parkere på Østerågade. Så parker i <a href="https://www.google.com/maps/place/Q-Park+Palads/@57.0505251,9.9180036,17z/data=!3m1!4b1!4m5!3m4!1s0x4649328c62f30bb3:0x45c7a2e7aea4bd95!8m2!3d57.0505222!4d9.9201923">Q-Parks Palads p-hus beliggende på Ved Stranden</a>, og få en lille gå tur ud af det.</p>
       </div>
+      <div class="card">
+  <div class="card-body">
+    Senest opdateret: 4. September 2019
+  </div>
+</div>
     </div>
   </div>
 </div>
