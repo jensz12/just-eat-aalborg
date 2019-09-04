@@ -70,8 +70,6 @@ a:hover, a:active {
         <img src="https://justeat.jensz12.com/1024.png" class="rounded" alt="JE-Logo" width="200px">
         </div>
         <h1>Parkerings Guide til Just Eat Delivery Aalborg</h1>
-        <!--- <h1>Gode links</h1>
-        <h3><a href="https://jz12.dk/jeskade"><i class="fal fa-car-crash"></i> Skadesanmeldelse Online</a></h3>--->
       </div>
       <div class="jumbotron">
         <div class="text-center">
@@ -334,6 +332,5 @@ a:hover, a:active {
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"crossorigin="anonymous"></script>
-
 </body>
 </html>
