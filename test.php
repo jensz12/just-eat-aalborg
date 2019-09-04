@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Just Eat - Parkering Aalborg</title>
 <meta name="description" content="Just Eat - Parkering Aalborg">
 <meta name="theme-color" content="#FA0029">
@@ -173,7 +173,7 @@ a:hover, a:active {
         <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Esaan+-+Taste+Of+Thailand/@57.0527314,9.914089,17z/data=!3m1!4b1!4m5!3m4!1s0x464933cc9eb27c85:0xed779353cbff9fd0!8m2!3d57.0527314!4d9.9162777">Strandvejen 9</a></h3>
         <h4><i class="fal fa-phone"></i> <a href="tel:34105718">34 10 57 18</a></h4>
         <h4><i class="fal fa-parking"></i> Parkering:</h4>
-        <p>Der er en p-plads på modsatte side af Strandvejen, overfor Seaport.</p>
+        <p>Der er en p-plads på modsatte side Strandvejen, overfor Seaport.</p>
       </div>
       <div class="jumbotron">
         <div class="text-center">
@@ -298,7 +298,7 @@ a:hover, a:active {
         <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Sunset+Boulevard+Aalborg+-+Kennedy+Arkaden/@57.0419623,9.9167272,17z/data=!3m1!4b1!4m5!3m4!1s0x464932f3dc80d05b:0xa04da8d48a57ad45!8m2!3d57.0419623!4d9.9189159">John F. Kennedys Plads 1 F</a> - Inde i Kennedy Arkaden.</h3>
         <h4><i class="fal fa-phone"></i> <a href="tel:98165352">98 16 53 52</a></h4>
         <h4><i class="fal fa-parking"></i> Parkering:</h4>
-        <p>Hvis du har et <a href="https://www.q-park.dk/da/abonnement/andre-produkter/quickcard/">Quickcard</a> kan du parkere i <a href="https://www.google.com/maps/place/Q-Park+Aalborg+Campus/@57.0397872,9.9169904,17z/data=!3m1!4b1!4m5!3m4!1s0x464932f1b3a74dc7:0x18809ea7eccbd066!8m2!3d57.0397872!4d9.9191791">Q-Parks Campus p-hus, på Kielersvej</a> og så gå de 2 minutter der er over til Sunset. Ellers kan du benytte Q-Parks Kennedy p-hus, beliggende overpå Kennedy Arkaden.</p>
+        <p>Hvis du har et Quickcard kan du parkere i <a href="https://www.google.com/maps/place/Q-Park+Aalborg+Campus/@57.0397872,9.9169904,17z/data=!3m1!4b1!4m5!3m4!1s0x464932f1b3a74dc7:0x18809ea7eccbd066!8m2!3d57.0397872!4d9.9191791">Q-Parks Campus p-hus, på Kielersvej</a> og så gå de 2 minutter der er over til Sunset. Ellers kan du benytte Q-Parks Kennedy p-hus, beliggende overpå Kennedy Arkaden.</p>
       </div>
       <div class="jumbotron">
         <div class="text-center">

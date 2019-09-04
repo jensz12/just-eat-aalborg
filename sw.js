@@ -1,6 +1,6 @@
 const cacheName = 'JE-Cache';
 const startPage = 'https://justeat.jensz12.com';
-const offlinePage = 'https://justeat.jensz12.com';
+const offlinePage = 'https://justeat.jensz12.com/';
 const filesToCache = [
   '/48.png',
   '/72.png',
@@ -31,6 +31,7 @@ const filesToCache = [
   '/rest/sunset.svg',
   '/je-back.jpg',
   '/je-bg.png'
+
 ];
 
 // Install
