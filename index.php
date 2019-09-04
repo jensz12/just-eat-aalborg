@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Just Eat - Parkering Aalborg</title>
 <meta name="description" content="Just Eat - Parkering Aalborg">
-<meta name="theme-color" content="#A81010">
+<meta name="theme-color" content="#FA0029">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@jensz12">
 <meta name="twitter:creator" content="@jensz12">
