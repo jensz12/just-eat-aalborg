@@ -38,6 +38,7 @@ body {
 }
 .card {
   margin-bottom: 20px;
+  background-color: #e9ecef;
 }
 .jumbotron {
   margin-top:
