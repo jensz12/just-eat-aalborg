@@ -27,6 +27,8 @@ const filesToCache = [
   '/rest/katjas.png',
   '/rest/southindian.png',
   '/rest/vaca.png',
+  '/rest/bk.svg',
+  '/rest/sunset.svg',
   '/je-back.jpg',
   '/je-bg.png'
 ];

@@ -116,7 +116,7 @@ a:hover, a:active {
       </div>
       <div class="jumbotron">
         <div class="text-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Burger_King_Logo.svg" class="rounded" alt="BK-Logo" width="200px">
+        <img src="/rest/bk.svg" class="rounded" alt="BK-Logo" width="200px">
         </div>
         <h1>Burger King - Aalborg C</h1>
         <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Burger+King/@57.0495083,9.9202355,17z/data=!4m8!1m2!3m1!2sBurger+King!3m4!1s0x0:0x4257636ec604297b!8m2!3d57.0495054!4d9.9224239">Østerågade 14</a></h3>
@@ -126,7 +126,7 @@ a:hover, a:active {
       </div>
       <div class="jumbotron">
         <div class="text-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Burger_King_Logo.svg" class="rounded" alt="BK-Logo" width="200px">
+        <img src="/rest/bk.svg" class="rounded" alt="BK-Logo" width="200px">
         </div>
         <h1>Burger King - Aalborg SV</h1>
         <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Burger+King/@57.0060923,9.8792676,17z/data=!3m1!4b1!4m5!3m4!1s0x464933a28adfeec5:0xb4e21c8e93fc6d2!8m2!3d57.0060894!4d9.8814563">Nibevej 1</a></h3>
@@ -291,7 +291,7 @@ a:hover, a:active {
       </div>
       <div class="jumbotron">
         <div class="text-center">
-        <img src="https://www.sunset-boulevard.dk/sites/all/themes/sunset/images/logo.svg" class="rounded" alt="Sunset-Logo" width="200px">
+        <img src="/rest/sunset.svg" class="rounded" alt="Sunset-Logo" width="200px">
         </div>
         <h1>Sunset Boulevard - Kennedy Arkaden</h1>
         <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Sunset+Boulevard+Aalborg+-+Kennedy+Arkaden/@57.0419623,9.9167272,17z/data=!3m1!4b1!4m5!3m4!1s0x464932f3dc80d05b:0xa04da8d48a57ad45!8m2!3d57.0419623!4d9.9189159">John F. Kennedys Plads 1 F</a> - Inde i Kennedy Arkaden.</h3>
@@ -301,7 +301,7 @@ a:hover, a:active {
       </div>
       <div class="jumbotron">
         <div class="text-center">
-        <img src="https://www.sunset-boulevard.dk/sites/all/themes/sunset/images/logo.svg" class="rounded" alt="Sunset-Logo" width="200px">
+        <img src="/rest/sunset.svg" class="rounded" alt="Sunset-Logo" width="200px">
         </div>
         <h1>Sunset Boulevard - Aalborg Storcenter</h1>
         <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Sunset+Boulevard+Aalborg+Storcenter/@57.003921,9.8721557,17z/data=!3m1!4b1!4m5!3m4!1s0x4649339822fe1af5:0x9dd5db1918c5124d!8m2!3d57.003921!4d9.8743444">Hobrovej 452</a> - Inde i Aalborg Storcenter.</h3>
