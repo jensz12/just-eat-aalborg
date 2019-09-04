@@ -27,7 +27,8 @@ const filesToCache = [
   '/rest/katjas.png',
   '/rest/southindian.png',
   '/rest/vaca.png',
-  '/je-back.jpg'
+  '/je-back.jpg',
+  '/je-bg.png'
 ];
 
 // Install
