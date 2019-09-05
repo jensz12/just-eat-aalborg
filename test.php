@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no user-scalable=no">
 <title>Just Eat - Parkering Aalborg</title>
 <meta name="description" content="Just Eat - Parkering Aalborg">
 <meta name="theme-color" content="#FA0029">
@@ -40,6 +40,9 @@ body {
   margin-bottom: 20px;
   background-color: #e9ecef;
 }
+.list-group-item {
+  background-color: #e9ecef;
+}
 .jumbotron {
   margin-top:
 }
@@ -74,6 +77,7 @@ a:hover, a:active {
         <img src="https://justeat.jensz12.com/1024.png" class="rounded" alt="JE-Logo" width="200px">
         </div>
         <h1>Parkerings Guide til Just Eat Delivery Aalborg</h1>
+        <p>Jens' guide til parkering rundt omkring i Aalborg, når du skal hente mad.</a>
       </div>
       <div class="jumbotron">
         <div class="text-center">
@@ -143,7 +147,7 @@ a:hover, a:active {
         <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Carl's+Jr.+Aalborg+-+Boulevarden/@57.0470636,9.9175241,17z/data=!3m1!4b1!4m5!3m4!1s0x4649330353326d9d:0x6c82490a5781bd99!8m2!3d57.0470607!4d9.9197128">Boulevarden 8</a></h3>
         <h4><i class="fal fa-phone"></i> <a href="tel:29667493">29 66 74 93</a></h4>
         <h4><i class="fal fa-parking"></i> Parkering:</h4>
-        <p>Du må ikke parkere på Boulevarden. Det nemmeste er at parkere i <a href="https://www.google.com/maps/place/Q-Park+Palads/@57.0505251,9.9180036,17z/data=!3m1!4b1!4m5!3m4!1s0x4649328c62f30bb3:0x45c7a2e7aea4bd95!8m2!3d57.0505222!4d9.9201923">Q-Parks Palads p-hus beliggende på Ved Stranden</a>, og få en lille gå tur ud af det. Efter klokken 15, må du parkere på alle p-pladser på p-pladsen ved <a href="https://www.google.com/maps/place/Borgerservice+Aalborg+Kommune/@57.0457777,9.9198234,19.25z/data=!4m5!3m4!1s0x0:0xec1e914f1d61d8c9!8m2!3d57.0456761!4d9.9197844">Aalborg Kommunes Borgerservice, i Rantzausgade</a>. Så kig eventuelt der. Der er gratis pladser i Vingårdsgade, overfor <a href="https://www.google.com/maps/place/Skomageren/@57.0473242,9.9170482,19.5z/data=!4m5!3m4!1s0x464932f4ac41d75d:0x73bd6d21f0d5363f!8m2!3d57.047371!4d9.9169421">B&O butiiken</a>. Men de er næsten altid optaget. Der er 4 gratis p-pladser i Brandstrupsgade. Disse er dog nsæten alid optaget.</p>
+        <p>Du må ikke parkere på Boulevarden. Det nemmeste er at parkere i <a href="https://www.google.com/maps/place/Q-Park+Palads/@57.0505251,9.9180036,17z/data=!3m1!4b1!4m5!3m4!1s0x4649328c62f30bb3:0x45c7a2e7aea4bd95!8m2!3d57.0505222!4d9.9201923">Q-Parks Palads p-hus beliggende på Ved Stranden</a>, og få en lille gå tur ud af det. Efter klokken 15, må du parkere på alle p-pladser på p-pladsen ved <a href="https://www.google.com/maps/place/Borgerservice+Aalborg+Kommune/@57.0457777,9.9198234,19.25z/data=!4m5!3m4!1s0x0:0xec1e914f1d61d8c9!8m2!3d57.0456761!4d9.9197844">Aalborg Kommunes Borgerservice, i Rantzausgade</a>. Så kig eventuelt der. Der er gratis pladser i Vingårdsgade, overfor <a href="https://www.google.com/maps/place/Skomageren/@57.0473242,9.9170482,19.5z/data=!4m5!3m4!1s0x464932f4ac41d75d:0x73bd6d21f0d5363f!8m2!3d57.047371!4d9.9169421">B&O butiiken</a>. Men de er næsten altid optaget. Der er 4 gratis p-pladser i Brandstrupsgade. Disse er dog næsten alid optaget.</p>
       </div>
       <div class="jumbotron">
         <div class="text-center">
@@ -173,7 +177,7 @@ a:hover, a:active {
         <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Esaan+-+Taste+Of+Thailand/@57.0527314,9.914089,17z/data=!3m1!4b1!4m5!3m4!1s0x464933cc9eb27c85:0xed779353cbff9fd0!8m2!3d57.0527314!4d9.9162777">Strandvejen 9</a></h3>
         <h4><i class="fal fa-phone"></i> <a href="tel:34105718">34 10 57 18</a></h4>
         <h4><i class="fal fa-parking"></i> Parkering:</h4>
-        <p>Der er en p-plads på modsatte side Strandvejen, overfor Seaport.</p>
+        <p>Der er en p-plads på modsatte side af Strandvejen, overfor Seaport.</p>
       </div>
       <div class="jumbotron">
         <div class="text-center">
@@ -298,7 +302,7 @@ a:hover, a:active {
         <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Sunset+Boulevard+Aalborg+-+Kennedy+Arkaden/@57.0419623,9.9167272,17z/data=!3m1!4b1!4m5!3m4!1s0x464932f3dc80d05b:0xa04da8d48a57ad45!8m2!3d57.0419623!4d9.9189159">John F. Kennedys Plads 1 F</a> - Inde i Kennedy Arkaden.</h3>
         <h4><i class="fal fa-phone"></i> <a href="tel:98165352">98 16 53 52</a></h4>
         <h4><i class="fal fa-parking"></i> Parkering:</h4>
-        <p>Hvis du har et Quickcard kan du parkere i <a href="https://www.google.com/maps/place/Q-Park+Aalborg+Campus/@57.0397872,9.9169904,17z/data=!3m1!4b1!4m5!3m4!1s0x464932f1b3a74dc7:0x18809ea7eccbd066!8m2!3d57.0397872!4d9.9191791">Q-Parks Campus p-hus, på Kielersvej</a> og så gå de 2 minutter der er over til Sunset. Ellers kan du benytte Q-Parks Kennedy p-hus, beliggende overpå Kennedy Arkaden.</p>
+        <p>Hvis du har et <a href="https://www.q-park.dk/da/abonnement/andre-produkter/quickcard/">Quickcard</a> kan du parkere i <a href="https://www.google.com/maps/place/Q-Park+Aalborg+Campus/@57.0397872,9.9169904,17z/data=!3m1!4b1!4m5!3m4!1s0x464932f1b3a74dc7:0x18809ea7eccbd066!8m2!3d57.0397872!4d9.9191791">Q-Parks Campus p-hus, på Kielersvej</a> og så gå de 2 minutter der er over til Sunset. Ellers kan du benytte Q-Parks Kennedy p-hus, beliggende overpå Kennedy Arkaden.</p>
       </div>
       <div class="jumbotron">
         <div class="text-center">
@@ -332,7 +336,7 @@ a:hover, a:active {
       </div>
       <div class="card">
   <div class="card-body">
-    Senest opdateret: 4. September 2019
+    Senest opdateret: 5. September 2019. Just Eat er ikke ansvarlig for indholdet på denne side. Fejl og forbedringer kan sendes til <a href="mailto:jens@jensz12.com">Jens</a>
   </div>
 </div>
     </div>
