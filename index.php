@@ -21,7 +21,7 @@
 <link rel="apple-touch-startup-image" href="https://justeat.jensz12.com/je-bg.png">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
 <link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/774ac70799.js"></script>
 <style>
 body {
 	background-image: url(https://justeat.jensz12.com/je-back.jpg);
