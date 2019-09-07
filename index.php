@@ -191,7 +191,7 @@ a:hover, a:active {
       </div>
       <div class="jumbotron">
         <div class="text-center">
-          <img src="/rest/grill-sandwich.jpg" class="rounded" alt="Gril-Sandwich-Logo" width="200px">
+          <img src="/rest/grill-sandwich.png" class="rounded" alt="Gril-Sandwich-Logo" width="200px">
         </div>
           <h1>Grill & Sandwich ved Stranden</h1>
           <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Grill+%26+Sandwich+ved+Stranden/@57.050495,9.9178642,17z/data=!3m1!4b1!4m5!3m4!1s0x4649328c63729e79:0xecfb87473ff3f062!8m2!3d57.050495!4d9.9200529">Ved Stranden 11c</a></h3>
@@ -246,7 +246,7 @@ a:hover, a:active {
           <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Kastet+Grill+Og+Burger/@57.0539779,9.8994944,17z/data=!3m1!4b1!4m5!3m4!1s0x46493266a48416f7:0xdfb2cb2b253014b9!8m2!3d57.053975!4d9.901683">Kastetvej 63</a></h3>
           <h4><i class="fal fa-phone"></i> <a href="tel:98126511">98 12 65 11</a></h4>
           <h4><i class="fal fa-parking"></i> Parkering:</h4>
-          <p>Du kan som regel parkere uden foran, i Schleppegrellsgade.</p>
+          <p>Du kan som regl parkere uden foran, i Schleppegrellsgade.</p>
       </div>
       <div class="jumbotron">
         <div class="text-center">
@@ -318,11 +318,11 @@ a:hover, a:active {
         <div class="text-center">
           <img src="/rest/thien-nhi.png" class="rounded" alt="Thien-Nhi-Logo" width="200px">
         </div>
-          <h1>Thien Nhi</h1>
+          <h1>Thien Nhi Grill</h1>
           <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/place/Thien+Nhi+Grill/@57.053912,9.8998363,17z/data=!3m1!4b1!4m5!3m4!1s0x46493266a51311eb:0xbe608de0de0cd5ec!8m2!3d57.053912!4d9.902025">Kastetvej 61</a></h3>
           <h4><i class="fal fa-phone"></i> <a href="tel:98126511">98 12 65 11</a></h4>
           <h4><i class="fal fa-parking"></i> Parkering:</h4>
-          <p>Du kan som regel parkere i Schleppegrellsgade.</p>
+          <p>Du kan som regl parkere i Schleppegrellsgade.</p>
       </div>
       <div class="jumbotron">
         <div class="text-center">
