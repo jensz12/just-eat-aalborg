@@ -107,7 +107,7 @@ a:hover, a:active {
       </div>
       <div class="jumbotron">
         <h1><i class="fal fa-search"></i> Søg efter restaurant</h1>
-          <input type="text" class="form-control" id="rest-find" aria-describedby="" placeholder="Indtast navn">
+          <input type="text" autofocus class="form-control" id="rest-find" aria-describedby="" placeholder="Indtast navn">
       </div>
       <?php
       while ($rest = $result->fetch_assoc()):
