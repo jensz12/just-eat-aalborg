@@ -97,10 +97,18 @@ a:hover, a:active {
     <div class="col-lg-12 col-md-12">
       <div class="jumbotron">
         <div class="text-center">
-          <img src="https://justeat.jensz12.com/1024.png" class="rounded" alt="JE-Logo" width="200px">
+          <img src="https://justeat.jensz12.com/1024.png" class="rounded" alt="" width="200px">
         </div>
           <h1>Parkerings Guide til Just Eat Delivery Aalborg</h1>
           <p>Jens' guide til parkering rundt omkring i Aalborg, når du skal hente mad.</a>
+      </div>
+      <div class="jumbotron">
+        <h1><i class="fal fa-search"></i> Søg efter restaurant</h1>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="restaurantSearch" aria-describedby="" placeholder="Indtast navn">
+          </div>
+        </form>
       </div>
       <?php while ($rest = $result->fetch_assoc()): ?>
       <div class="jumbotron">
@@ -130,7 +138,7 @@ a:hover, a:active {
       <?php endwhile; ?>
       <div class="card">
         <div class="card-body">
-          <p>Senest opdateret: 5. September 2019. Just Eat er ikke ansvarlig for indholdet på denne side. Fejl og forbedringer kan sendes til <a href="mailto:jens@jensz12.com">Jens</a></p>
+          <p>Senest opdateret: 11. September 2019. Just Eat er ikke ansvarlig for indholdet på denne side. Fejl og forbedringer kan sendes til <a href="mailto:jens@jensz12.com">Jens</a>. Tak til <a href="https://spirit55555.dk">Anders</a> for SQL kode</p>
         </div>
       </div>
     </div>
