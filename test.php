@@ -76,6 +76,9 @@ a:link, a:visited {
 a:hover, a:active {
 	text-decoration: underline;
 }
+.hide {
+  display: none;
+}
 </style>
 <script>
 	if ('serviceWorker' in navigator) {
@@ -104,14 +107,14 @@ a:hover, a:active {
       </div>
       <div class="jumbotron">
         <h1><i class="fal fa-search"></i> Søg efter restaurant</h1>
-        <form>
-          <div class="form-group">
-            <input type="text" class="form-control" id="restaurantSearch" aria-describedby="" placeholder="Indtast navn">
-          </div>
-        </form>
+          <input type="text" class="form-control" id="rest-find" aria-describedby="" placeholder="Indtast navn">
       </div>
-      <?php while ($rest = $result->fetch_assoc()): ?>
-      <div class="jumbotron">
+      <?php
+      while ($rest = $result->fetch_assoc()):
+      $under_rests = get_under_rests($rest['id']);
+      $under_rests_lowercase = array_map('mb_strtolower', $under_rests);
+      ?>
+      <div class="jumbotron rest" data-search="<?php echo mb_strtolower($rest['navn']).' '.implode(' ', $under_rests_lowercase); ?>">
         <div class="text-center">
           <img src="/rest/<?php echo $rest['logo']; ?>" class="rounded" alt="" width="200px">
         </div>
@@ -122,11 +125,7 @@ a:hover, a:active {
           <?php endif; ?>
           <h4><i class="fal fa-parking"></i> Parkering:</h4>
           <p><?php echo $rest['parkering']; ?></p>
-          <?php
-          $under_rests = get_under_rests($rest['id']);
-         
-          if (!empty($under_rests)):
-          ?>
+          <?php if (!empty($under_rests)): ?>
           <p>Følgende restauranter er beliggende i <?php echo $rest['navn']; ?>:</p>
           <ul class="list-group list-group-flush">
             <?php foreach ($under_rests as $under_rest): ?>
@@ -147,5 +146,31 @@ a:hover, a:active {
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"  crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"crossorigin="anonymous"></script>
+<script>
+var ref;
+var update_list = function(){
+    var rest_find = jQuery('#rest-find').val().toLowerCase();
+
+    jQuery('.rest').each(function(){
+        var search = jQuery(this).data('search').toString();
+
+        if (search.indexOf(rest_find) !== -1)
+            jQuery(this).removeClass('hide');
+        else
+            jQuery(this).addClass('hide');
+    });
+};
+
+var wrapper = function(){
+    window.clearTimeout(ref);
+    ref = window.setTimeout(update_list, 150);
+};
+
+jQuery(function(){
+    jQuery('#rest-find').keyup(function(){
+        wrapper();
+    });
+});
+</script>
 </body>
 </html>
