@@ -1,3 +1,26 @@
+<?php
+$mysqli = new mysqli('localhost' , 'jensz12_je' , 't8ju05Mo7-Ua' , 'jensz12_je');
+$mysqli->set_charset('utf8');
+
+if ($mysqli->connect_errno)
+  die('Der kunne ikke oprettes forbindelse til databasen. Prøv igen om lidt');
+
+$sql = 'SELECT * FROM rest ORDER BY navn ASC';
+$result = $mysqli->query($sql);
+
+function get_under_rests($rest_id) {
+  global $mysqli;
+
+  $under_rests = array();
+  $sql = "SELECT navn FROM under_rest WHERE rest_id = $rest_id ORDER BY navn ASC";
+  $result = $mysqli->query($sql);
+
+  while ($under_rest = $result->fetch_assoc())
+    $under_rests[] = $under_rest['navn'];
+
+  return $under_rests;
+}
+?>
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -79,16 +102,42 @@ a:hover, a:active {
         <div class="text-center">
           <img src="https://justeat.jensz12.com/1024.png" class="rounded" alt="" width="200px">
         </div>
-          <h1>Delivery Aalborg</h1>
-      </div>
+          <h1>Parkerings guide</h1>
+          <h2><a href="/"><i class="fal fa-home"></i> Tilbage til forsiden</a></h2>
+        </div>
       <div class="jumbotron">
-      <h2><a href="/parkering"><i class="fal fa-parking"></i> Parkerings guide</a></h2>
-      <h2><a href="/skade"><i class="fal fa-car-crash"></i> Skadesandmeldelses ark</a></h2>
-      <h2><a href="https://cloud5.amcsgroup.com" target="_blank"><i class="fal fa-clipboard-list"></i> TMS</a></h2>
+        <h1><i class="fal fa-search"></i> Søg efter restaurant</h1>
+          <input type="text" autofocus class="form-control" id="rest-find" aria-describedby="" placeholder="Indtast navn">
       </div>
+      <?php
+      while ($rest = $result->fetch_assoc()):
+      $under_rests = get_under_rests($rest['id']);
+      $under_rests_lowercase = array_map('mb_strtolower', $under_rests);
+      ?>
+      <div class="jumbotron rest" data-search="<?php echo mb_strtolower($rest['navn']).' '.implode(' ', $under_rests_lowercase); ?>">
+        <div class="text-center">
+          <img src="/rest/<?php echo $rest['logo']; ?>" class="rounded" alt="" width="200px">
+        </div>
+          <h1><?php echo $rest['navn']; ?></h1>
+          <h3><i class="fal fa-map-marker-check"></i> <?php echo $rest['adresse']; ?><?php if (!empty($rest['note'])) echo ' - '.$rest['note']; ?></h3>
+          <?php if (!empty($rest['tlf'])): ?>
+          <h4><i class="fal fa-phone"></i> <?php echo $rest['tlf']; ?></h4>
+          <?php endif; ?>
+          <h4><i class="fal fa-parking"></i> Parkering:</h4>
+          <p><?php echo $rest['parkering']; ?></p>
+          <?php if (!empty($under_rests)): ?>
+          <p>Følgende restauranter er beliggende i <?php echo $rest['navn']; ?>:</p>
+          <ul class="list-group list-group-flush">
+            <?php foreach ($under_rests as $under_rest): ?>
+            <li class="list-group-item"><?php echo $under_rest; ?></li>
+            <?php endforeach; ?>
+          </ul>
+          <?php endif; ?>  
+      </div>
+      <?php endwhile; ?>
       <div class="card">
         <div class="card-body">
-		    <p>Just Eat er ikke ansvarlig for indholdet på denne side. Fejl og forbedringer kan sendes til <a href="mailto:jens@jensz12.com">Jens</a>. Tak til <a href="https://spirit55555.dk">Anders</a> for SQL & jquery kode</p>
+		      <p>Sidst opdateret: 11. september 2019. Just Eat er ikke ansvarlig for indholdet på denne side. Fejl og forbedringer kan sendes til <a href="mailto:jens@jensz12.com">Jens</a>. Tak til <a href="https://spirit55555.dk">Anders</a> for SQL & jquery kode</p>
         </div>
       </div>
     </div>
@@ -97,5 +146,31 @@ a:hover, a:active {
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"  crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"crossorigin="anonymous"></script>
+<script>
+var ref;
+var update_list = function(){
+    var rest_find = jQuery('#rest-find').val().toLowerCase();
+
+    jQuery('.rest').each(function(){
+        var search = jQuery(this).data('search').toString();
+
+        if (search.indexOf(rest_find) !== -1)
+            jQuery(this).removeClass('hide');
+        else
+            jQuery(this).addClass('hide');
+    });
+};
+
+var wrapper = function(){
+    window.clearTimeout(ref);
+    ref = window.setTimeout(update_list, 150);
+};
+
+jQuery(function(){
+    jQuery('#rest-find').keyup(function(){
+        wrapper();
+    });
+});
+</script>
 </body>
 </html>

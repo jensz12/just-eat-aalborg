@@ -79,12 +79,11 @@ a:hover, a:active {
         <div class="text-center">
           <img src="https://justeat.jensz12.com/1024.png" class="rounded" alt="" width="200px">
         </div>
-          <h1>Delivery Aalborg</h1>
+          <h1>Skadeark</h1>
+          <h2><a href="/"><i class="fal fa-home"></i> Tilbage til forsiden</a></h2>
       </div>
       <div class="jumbotron">
-      <h2><a href="/parkering"><i class="fal fa-parking"></i> Parkerings guide</a></h2>
-      <h2><a href="/skade"><i class="fal fa-car-crash"></i> Skadesandmeldelses ark</a></h2>
-      <h2><a href="https://cloud5.amcsgroup.com" target="_blank"><i class="fal fa-clipboard-list"></i> TMS</a></h2>
+      <iframe src="https://docs.google.com/forms/d/1YAUzY53QiOiiuMLnR6y6Et7vJTDMk-i43CH6WIb3Dog/viewform?ts=5be014db&edit_requested=true" width="100%" height="1700" frameborder="0" marginheight="0" marginwidth="0">Indlæser…</iframe>
       </div>
       <div class="card">
         <div class="card-body">
@@ -99,3 +98,4 @@ a:hover, a:active {
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"crossorigin="anonymous"></script>
 </body>
 </html>
+
