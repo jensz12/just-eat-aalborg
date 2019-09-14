@@ -4,59 +4,25 @@
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no user-scalable=no">
-<title>Just Eat - Delivery Aalborg</title>
-<meta name="description" content="Just Eat - Delivery Aalborg">
+<title>Delivery Aalborg - Just Eat</title>
+<meta name="description" content="Delivery Aalborg - Just Eat">
 <meta name="theme-color" content="#FA0029">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@jensz12">
 <meta name="twitter:creator" content="@jensz12">
-<meta name="twitter:title" content="Just Eat - Delivery Aalborg">
-<meta name="twitter:description" content="Just Eat - Delivery Aalborg">
+<meta name="twitter:title" content="Delivery Aalborg - Just Eat">
+<meta name="twitter:description" content="Delivery Aalborg - Just Eat">
 <meta name="twitter:image:src" content="https://justeat.jensz12.com/1024.png">
 <link rel="icon" href="https://justeat.jensz12.com/1024.png">
 <link rel="manifest" href="https://justeat.jensz12.com//manifest.json">
 <link rel="apple-touch-icon" href="https://justeat.jensz12.com/1024.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Just Eat - Delivery Aalborg">
+<meta name="apple-mobile-web-app-title" content="Delivery Aalborg - Just Eat">
 <link rel="apple-touch-startup-image" href="https://justeat.jensz12.com/je-bg.png">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/style.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
 <script src="https://kit.fontawesome.com/774ac70799.js"></script>
-<style>
-body {
-	background-image: url(https://justeat.jensz12.com/je-back.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-	height: 100%;
-	font-family: 'Roboto', sans-serif;
-	padding-top: 70px;
-}
-.img {
-  margin: 30px;
-}
-.card {
-  margin-bottom: 20px;
-  background-color: #e9ecef;
-}
-.list-group-item {
-  background-color: #e9ecef;
-}
-.jumbotron {
-  margin-top:
-}
-a:link, a:visited {
-	color: rgb(102, 102, 102);
-	text-decoration: none;
-}
-a:hover, a:active {
-	text-decoration: underline;
-}
-.hide {
-  display: none;
-}
-</style>
 <script>
 	if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
@@ -70,8 +36,35 @@ a:hover, a:active {
   });
 }
 </script>
-<head>
+</head>
 <body>
+<header>
+<nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #FA0029;">
+<div class="container">
+<a class="navbar-brand" href="/">
+    <img src="/je.png" width="30" height="30" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+        <a class="nav-link" href="/parkering"><i class="fal fa-parking"></i> Parkeringsguide</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/skade"><i class="fal fa-car-crash"></i> Skadeark</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="https://cloud5.amcsgroup.com" target="_blank"><i class="fal fa-clipboard-list"></i> TMS</a>
+        </li>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+</header>
 <div class="container">
   <div class="row">
     <div class="col-lg-12 col-md-12">
@@ -82,8 +75,8 @@ a:hover, a:active {
           <h1>Delivery Aalborg</h1>
       </div>
       <div class="jumbotron">
-      <h2><a href="/parkering"><i class="fal fa-parking"></i> Parkerings guide</a></h2>
-      <h2><a href="/skade"><i class="fal fa-car-crash"></i> Skadesandmeldelses ark</a></h2>
+      <h2><a href="/parkering"><i class="fal fa-parking"></i> Parkeringsguide</a></h2>
+      <h2><a href="/skade"><i class="fal fa-car-crash"></i> Skadeark</a></h2>
       <h2><a href="https://cloud5.amcsgroup.com" target="_blank"><i class="fal fa-clipboard-list"></i> TMS</a></h2>
       </div>
       <div class="card">

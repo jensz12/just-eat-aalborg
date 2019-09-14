@@ -1,0 +1,36 @@
+body {
+	background-image: url(https://justeat.jensz12.com/je-back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+.img {
+  margin: 30px;
+}
+.card {
+  margin-bottom: 20px;
+  background-color: #e9ecef;
+}
+.list-group-item {
+  background-color: #e9ecef;
+}
+.jumbotron {
+    padding-top: 70px;
+    margin-top: 30px;
+}
+a:link, a:visited {
+	color: rgb(102, 102, 102);
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+.hide {
+  display: none;
+}
+.nav-link, .nav-item {
+    color: #ffffff;
+}
