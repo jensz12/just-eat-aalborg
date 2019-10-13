@@ -78,10 +78,46 @@
         <div class="text-center">
           <img src="https://justeat.jensz12.com/1024.png" class="rounded" alt="" width="200px">
         </div>
-          <h1>Skadeark</h1>
+          <h1>Ekstra ting</h1>
       </div>
       <div class="jumbotron">
-      <iframe src="https://docs.google.com/forms/d/1YAUzY53QiOiiuMLnR6y6Et7vJTDMk-i43CH6WIb3Dog/viewform?ts=5be014db&edit_requested=true" width="100%" height="1700" frameborder="0" marginheight="0" marginwidth="0">Indlæser…</iframe>
+        <h2>Baggrunde til telefoner</h2>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Vinter (Vælg telefon)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab01-vinter.jpg">Bil 1</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab02-vinter.jpg">Bil 2</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab03-vinter.jpg">Bil 3</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab04-vinter.jpg">Bil 4</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab05-vinter.jpg">Bil 5</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Jul (Vælg telefon)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab01-jul.jpg">Bil 1</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab02-jul.jpg">Bil 2</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab03-jul.jpg">Bil 3</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab04-jul.jpg">Bil 4</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab05-jul.jpg">Bil 5</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sommer (Vælg telefon)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab01-sommer.jpg">Bil 1</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab02-sommer.jpg">Bil 2</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab03-sommer.jpg">Bil 3</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab04-sommer.jpg">Bil 4</a>
+              <a class="dropdown-item" href="https://justeat.jensz12.com/img/aab05-sommer.jpg">Bil 5</a>
+            </div>
+          </div>
       </div>
       <div class="card">
         <div class="card-body">

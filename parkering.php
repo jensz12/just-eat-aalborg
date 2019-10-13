@@ -62,7 +62,7 @@ function get_under_rests($rest_id) {
 </head>
 <body>
 <header>
-<nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #FA0029;">
+<nav class="navbar fixed-top navbar-dark navbar-expand-lg" style="background-color: #FA0029;">
 <div class="container">
 <a class="navbar-brand" href="/">
     <img src="/je.png" width="30" height="30" alt="">
@@ -74,13 +74,19 @@ function get_under_rests($rest_id) {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-        <a class="nav-link" href="/parkering"><i class="fal fa-parking"></i> Parkeringsguide</a>
+        <a class="nav-link" href="/parkering"><i class="fal fa-parking fa-fw"></i> Parkeringsguide</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="/skade"><i class="fal fa-car-crash"></i> Skadeark</a>
+        <a class="nav-link" href="/skade"><i class="fal fa-car-crash fa-fw"></i> Skadeark</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="https://cloud5.amcsgroup.com" target="_blank"><i class="fal fa-clipboard-list"></i> TMS</a>
+        <a class="nav-link" href="/info"><i class="fal fa-info fa-fw"></i> God information</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/extra"><i class="fal fa-download fa-fw"></i> Ekstra</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="https://cloud5.amcsgroup.com" target="_blank"><i class="fal fa-clipboard-list fa-fw"></i> TMS</a>
         </li>
       </li>
     </ul>
