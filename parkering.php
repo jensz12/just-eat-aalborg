@@ -135,7 +135,7 @@ function get_under_rests($rest_id) {
       <?php endwhile; ?>
       <div class="card">
         <div class="card-body">
-		      <p>Sidst opdateret: 11. september 2019. Just Eat er ikke ansvarlig for indholdet på denne side. Fejl og forbedringer kan sendes til <a href="mailto:jens@jensz12.com">Jens</a>. Tak til <a href="https://spirit55555.dk">Anders</a> for SQL & jquery kode</p>
+		      <p>Sidst opdateret: 24. oktober 2019. Just Eat er ikke ansvarlig for indholdet på denne side. Fejl og forbedringer kan sendes til <a href="mailto:jens@jensz12.com">Jens</a>. Tak til <a href="https://spirit55555.dk">Anders</a> for SQL & jquery kode</p>
         </div>
       </div>
     </div>
