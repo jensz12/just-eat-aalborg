@@ -54,9 +54,6 @@
         <a class="nav-link" href="/parkering"><i class="fal fa-parking fa-fw"></i> Parkeringsguide</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="/skade"><i class="fal fa-car-crash fa-fw"></i> Skadeark</a>
-        </li>
-        <li class="nav-item">
         <a class="nav-link" href="/info"><i class="fal fa-info fa-fw"></i> God information</a>
         </li>
         <li class="nav-item">
