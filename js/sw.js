@@ -3,10 +3,10 @@ const startPage = 'https://justeat.jensz12.com';
 const offlinePage = 'https://justeat.jensz12.com/';
 const CACHING_DURATION = 7 * 24 * 3600;
 const filesToCache = [
-  '/192.png',
-  '/512.png',
-  '/1024.png',
-  '/je.png',
+  '/img/logo/192.png',
+  '/img/logo/512.png',
+  '/img/logo/1024.png',
+  '/img/logo/je.png',
   '/rest/kastet.png',
   '/rest/jamesrobertson.png',
   '/rest/carlsjr.png',
@@ -25,9 +25,9 @@ const filesToCache = [
   '/rest/southindian.png',
   '/rest/bk.svg',
   '/rest/sunset.svg',
-  '/je-back.jpg',
-  '/je-bg.png',
-  '/back.jpg'
+  '/img/andet/je-back.jpg',
+  '/img/andet/je-bg.png',
+  '/img/andet/back.jpg'
 ];
 
 // Install

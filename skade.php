@@ -12,13 +12,13 @@
 <meta name="twitter:creator" content="@jensz12">
 <meta name="twitter:title" content="Delivery Aalborg - Just Eat">
 <meta name="twitter:description" content="Delivery Aalborg - Just Eat">
-<meta name="twitter:image:src" content="https://justeat.jensz12.com/1024.png">
-<link rel="icon" href="https://justeat.jensz12.com/1024.png">
-<link rel="manifest" href="https://justeat.jensz12.com//manifest.json">
-<link rel="apple-touch-icon" href="https://justeat.jensz12.com/1024.png">
+<meta name="twitter:image:src" content="https://justeat.jensz12.com/img/logo/1024.png">
+<link rel="icon" href="https://justeat.jensz12.com/img/logo/1024.png">
+<link rel="manifest" href="https://justeat.jensz12.com/manifest.json">
+<link rel="apple-touch-icon" href="https://justeat.jensz12.com/img/logo/1024.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Delivery Aalborg - Just Eat">
-<link rel="apple-touch-startup-image" href="https://justeat.jensz12.com/je-bg.png">
+<link rel="apple-touch-startup-image" href="https://justeat.jensz12.com/andet/je-bg.png">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
 <link rel="stylesheet" href="/css/style.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
@@ -26,7 +26,7 @@
 <script>
 	if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+    navigator.serviceWorker.register('/js/sw.js').then(function(registration) {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }).catch(function(err) {
@@ -42,7 +42,7 @@
 <nav class="navbar fixed-top navbar-dark navbar-expand-lg" style="background-color: #FA0029;">
 <div class="container">
 <a class="navbar-brand" href="/">
-    <img src="/je.png" width="30" height="30" alt="">
+    <img src="/img/logo/je.png" width="30" height="30" alt="">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -76,7 +76,7 @@
     <div class="col-lg-12 col-md-12">
       <div class="jumbotron">
         <div class="text-center">
-          <img src="https://justeat.jensz12.com/1024.png" class="rounded" alt="" width="200px">
+          <img src="https://justeat.jensz12.com/img/logo/1024.png" class="rounded" alt="" width="200px">
         </div>
           <h1>Skadeark</h1>
       </div>
