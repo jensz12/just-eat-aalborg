@@ -1,2 +1,2 @@
-# je-parkering
-Parering i Aalborg
+# just-eat-aalborg
+Lille webapp til Just Delivery i Aalborg. Med info om parkering osv....
