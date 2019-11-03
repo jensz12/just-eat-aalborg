@@ -4,20 +4,20 @@
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no user-scalable=no">
-<title><?php echo $this->title; ?>  - Just Eat</title>
-<meta name="description" content="<?php echo $this->title; ?>  - Just Eat">
+<title><?php echo $this->title; ?>  - Just Eat Delivery Aalborg</title>
+<meta name="description" content="<?php echo $this->title; ?>  - Just Eat Delivery Aalborg">
 <meta name="theme-color" content="#FA0029">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@jensz12">
 <meta name="twitter:creator" content="@jensz12">
-<meta name="twitter:title" content="<?php echo $this->title; ?>  - Just Eat">
-<meta name="twitter:description" content="<?php echo $this->title; ?>  - Just Eat">
+<meta name="twitter:title" content="<?php echo $this->title; ?>  - Just Eat Delivery Aalborg">
+<meta name="twitter:description" content="<?php echo $this->title; ?>  - Just Eat Delivery Aalborg">
 <meta name="twitter:image:src" content="https://justeat.jensz12.com/img/logo/1024.png">
 <link rel="icon" href="https://justeat.jensz12.com/img/logo/1024.png">
 <link rel="manifest" href="https://justeat.jensz12.com/manifest.json">
 <link rel="apple-touch-icon" href="https://justeat.jensz12.com/img/logo/1024.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="<?php echo $this->title; ?> - Just Eat">
+<meta name="apple-mobile-web-app-title" content="<?php echo $this->title; ?> - Just Eat Delivery Aalborg">
 <link rel="apple-touch-startup-image" href="https://justeat.jensz12.com/img/andet/je-bg.png">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
 <link rel="stylesheet" href="/css/style.css">
