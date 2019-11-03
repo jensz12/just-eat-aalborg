@@ -24,7 +24,7 @@ $klein->respond('GET', '/info', function($request, $response, $service) {
 
 $klein->respond('GET', '/parkering', function($request, $response, $service) {
 
-  $mysqli = new mysqli('localhost' , 'jensz12_je' , 't8ju05Mo7-Ua' , 'jensz12_je');
+  $mysqli = new mysqli('localhost' , 'jensz12_je' , '' , 'jensz12_je');
   $mysqli->set_charset('utf8');
 
   if ($mysqli->connect_errno)
