@@ -1,4 +1,5 @@
 <div class="jumbotron">
+<h2>Baggrunde til telefoner</h2>
 <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Vinter (Vælg telefon)
