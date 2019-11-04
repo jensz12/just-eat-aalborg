@@ -8,10 +8,16 @@
 <div class="jumbotron">
   <h2>Koder til telefoner, Slack osv...</h2>
     <ul>
-    <li>Koderne til telefoner og Google konto kan findes i WikiEatia, som du kan hente via <a href="https://justeat.planday.dk">Planday</a></li>
-    <li>Skal du bruge koden til Slack, så prøv hos OC. Kan de ikke hjælpe, så skriv til Jens.</li>
+    <li>Koderne til telefoner og Google konto kan findes i WikiEatia, som du kan hente via <a href="https://justeat.planday.dk">Planday</a>. Du kan også altid spørge på Slack efter dem</li>
     <li>Koden til bommene bag BurgerKing i Aalborg C er 531E</li>
     <li>Koden til tankkort er den samme som til telefon</li>
+</div>
+<div class="jumbotron">
+  <h2>Problemer med Google Maps</h2>
+    <ul>
+    <li>Virker Google Maps ikke, så er der hermed en guide til hvordan du forhåbentlig kan løse dem</a></li>
+    <li>Start med at tjekke om du er logget ind på Google kontoen. Det er 99% tiden det der løser problemet. Du kan gøre dette ved at åbne Google Play, og se om du bliver bedt om at logge ind. Hvis du gør, så log ind, og se om dette løser problemet.</li>
+    <li>Tjek også meget gerne om Google Maps er opdateret.</li>
 </div>
 <div class="jumbotron">
   <h2>Telefonnummre</h2>
