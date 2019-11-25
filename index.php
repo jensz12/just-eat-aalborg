@@ -47,5 +47,13 @@ $klein->respond('GET', '/parkering', function($request, $response, $service) {
 	$service->render('views/parkering.php');
 });
 
+$klein->onHttpError(function ($code, $router) {
+	if ($code == 404) {
+		$service = $router->service();
+		$service->title = '404 - Side ikke fundet';
+		$service->render('views/404.php');
+	}
+});
+
 $klein->dispatch();
 ?>
