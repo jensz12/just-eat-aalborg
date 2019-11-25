@@ -58,9 +58,6 @@
         <li class="nav-item">
         <a class="nav-link" href="/ekstra"><i class="fal fa-download fa-fw"></i> Ekstra</a>
         </li>
-		    <!--<li class="nav-item">
-        <a class="nav-link" href="/oc"><i class="fal fa-user-headset fa-fw"></i> OC</a>
-        </li>-->
         <li class="nav-item">
         <a class="nav-link" href="https://cloud5.amcsgroup.com" target="_blank"><i class="fal fa-clipboard-list fa-fw"></i> TMS</a>
         </li>
