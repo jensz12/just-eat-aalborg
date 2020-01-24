@@ -24,7 +24,7 @@ $klein->respond('GET', '/info', function($request, $response, $service) {
 
 $klein->respond('GET', '/parkering', function($request, $response, $service) {
 
-  $mysqli = new mysqli('localhost' , 'jensz12_je' , '' , 'jensz12_je');
+  $mysqli = new mysqli('localhost' , '' , '' , '');
   $mysqli->set_charset('utf8');
 
   if ($mysqli->connect_errno)
@@ -50,10 +50,11 @@ $klein->respond('GET', '/parkering', function($request, $response, $service) {
 $klein->onHttpError(function ($code, $router) {
 	if ($code == 404) {
 		$service = $router->service();
-		$service->title = '404 - Side ikke fundet';
+		$service->title = '404 - Siden blev ikke fundet';
 		$service->render('views/404.php');
-	}
+  }
 });
+
 
 $klein->dispatch();
 ?>
