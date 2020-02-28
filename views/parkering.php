@@ -8,7 +8,7 @@
     <img src="/rest/<?php echo $rest['logo']; ?>" class="rounded" alt="" width="200px">
   </div>
     <h1><?php echo $rest['navn']; ?></h1>
-    <h3><i class="fal fa-map-marker-check"></i> <?php echo $rest['adresse']; ?><?php if (!empty($rest['note'])) echo ' - '.$rest['note']; ?></h3>
+    <h3><i class="fal fa-map-marker-check"></i> <a href="https://www.google.com/maps/dir/?api=1&origin=&destination=<?php echo urlencode($rest['adresse']); ?>"><?php echo $rest['adresse']; ?></a><?php if (!empty($rest['note'])) echo ' - '.$rest['note']; ?></h3>
     <?php if (!empty($rest['tlf'])): ?>
     <h4><i class="fal fa-phone"></i><a href="tel:<?php echo $rest['tlf']; ?>"> <?php echo $rest['tlf']; ?></a></h4>
     <?php endif; ?>
